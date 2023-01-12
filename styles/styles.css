@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.header{
+    background: #FFF8F3;
+    padding: 50px;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+.text-primary{
+    color: orange;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 0px 50px;
+}
+.inline {
+    display: flex;
+    gap: 50px;
+  }
+.btn-primary{
+    /* Button inside text*/
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 160px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    background: #FD6E0A;
+}
+.btn-primary1{
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background: #FFF8F3;
+    width: 160px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* header banner */
+
+.banner{
+    display: flex;
+    margin: 50px 200px;
+    align-items: center;
+}
+
+.banner-title{
+    color: #181818;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title{
+    color: #474747;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* second page*/
+.about{
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 230px;
+    text-align: center;
+    padding: 130px;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.about-info-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+/* what-i-do */
+.what-i-do{
+    padding: 0px 230px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.skills-container{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 130px;
+
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+    
+}
+.skill-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+/*Fourth Section*/
+.resume-content{
+    display: flex;
+    gap: 25px;
+    padding: 0px 230px;
+}
+.resume-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 120px;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*last page*/
+.contact-page{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 115px;
+}
+.contact-page-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.contact-page-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.contact-page a{
+    text-decoration: none;
+}
+
+/* contact page right side*/
+.contact-page-title1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 10px
+}
+
+.contact-page input[type="text"], input[type="email"], textarea{
+    margin-top: 30px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 25px;
+}
